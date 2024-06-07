@@ -1,0 +1,56 @@
+div.calContainer{
+    width: 50%;
+    height: 500px;
+    background-color: rgb(25, 0, 69);
+    margin-left:25%;
+    padding-top: 50px;
+    border-radius: 20px;
+}
+
+h1,form,p{
+    text-align: center;
+    color: yellow;
+
+}
+
+form input{
+    display: inline;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    text-align: center;
+    letter-spacing: 0.1rem;
+}
+
+h1, p, form{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    padding-bottom: 30px;
+}
+
+form input#computeInput{
+    display: block;
+    margin: auto;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border: none;
+    cursor: grab;
+    background-color: yellow;
+    letter-spacing: 0.5rem;
+    font-weight: 700;
+    
+}
+
+form input#computeInput:hover{
+    background-color: aqua;
+}
+
+input#amountInput{
+    margin-bottom: 33px;
+}
+
+#displayResult{
+    padding-top: 20px;
+}
+
